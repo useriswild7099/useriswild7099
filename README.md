@@ -31,10 +31,10 @@ I am an **AI Engineer and Systems Architect** based in Guwahati, India, pursuing
 
 My work centers on the intersection of **machine intelligence and embedded hardware** — fine-tuning large language models (Gemma 3 4B), designing grounded Retrieval-Augmented Generation (RAG) pipelines, and building predictive edge-computing IoT systems.
 
-- 🏆 **Hackathon Winner** — Neural x Hackathon, Tezpur University (AI Mental Health Platform)
-- 🎖️ **Hackathon Finalist** — Dehradun Cyber Hackathon 2.0 (Cyber Police Digitization Platform)
-- 🏢 **Founder** — [Artificial Studio](#-ventures--leadership) (Smart Hardware & Tech Community) & [Steady Pulse AI](#-ventures--leadership)
-- 💻 **Open Source** — Regular contributor across 35+ GitHub repositories
+- **Hackathon Winner** — Neural x Hackathon, Tezpur University (AI Mental Health Platform)
+- **Hackathon Finalist** — Dehradun Cyber Hackathon 2.0 (Cyber Police Digitization Platform)
+- **Founder** — [Artificial Studio](#ventures--leadership) (Smart Hardware & Tech Community) and [Steady Pulse AI](#ventures--leadership)
+- **Open Source** — Regular contributor across 35+ GitHub repositories
 
 <br/>
 
@@ -73,7 +73,7 @@ My work centers on the intersection of **machine intelligence and embedded hardw
     <tr>
       <td>
         <b>Neural x — AI Mental Health Platform</b><br/>
-        <sub>🏆 <i>Winner, Neural x Hackathon (Tezpur Univ)</i></sub>
+        <sub><i>Winner, Neural x Hackathon (Tezpur Univ)</i></sub>
       </td>
       <td>
         Gemma 3 4B fine-tuned conversational system supporting 50+ distinct AI personas. Implemented clinical RAG grounded in psychological counseling guidelines (S.S. Rao), the <i>Mindspace Hub</i> knowledge repository, and personal journaling.
@@ -86,7 +86,7 @@ My work centers on the intersection of **machine intelligence and embedded hardw
     <tr>
       <td>
         <b>Cyber Police Digital Platform</b><br/>
-        <sub>🎖️ <i>Finalist, Dehradun Cyber Hackathon 2.0</i></sub>
+        <sub><i>Finalist, Dehradun Cyber Hackathon 2.0</i></sub>
       </td>
       <td>
         Case management and administrative digitization platform for cyber police departments. Integrated a custom NLP document comprehension engine to summarize case files, correlate investigations, and recommend next actions.
