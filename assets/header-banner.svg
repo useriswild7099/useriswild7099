@@ -1,0 +1,113 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d13" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <!-- Accent Radial Glow -->
+    <radialGradient id="glowTopRight" cx="90%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowBottomLeft" cx="10%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="dotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" fill-opacity="0.65" />
+    </pattern>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Status Pulse Animation -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.9); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      .pulse-dot {
+        animation: pulse 2.5s infinite ease-in-out;
+        transform-origin: center;
+      }
+      .floating-badge {
+        animation: floatSlow 6s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box with Rounded Corners -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  
+  <!-- Glow Overlays -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#glowTopRight)" />
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#glowBottomLeft)" />
+
+  <!-- Dotted Grid Canvas -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#dotGrid)" />
+
+  <!-- Terminal Top Bar Window Controls -->
+  <g transform="translate(48, 42)">
+    <circle cx="0" cy="0" r="5" fill="#ff5f56" fill-opacity="0.8" />
+    <circle cx="16" cy="0" r="5" fill="#ffbd2e" fill-opacity="0.8" />
+    <circle cx="32" cy="0" r="5" fill="#27c93f" fill-opacity="0.8" />
+    <text x="56" y="4" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="1">PRINCE_TIGGA://RUNTIME_ENVIRONMENT.SYS</text>
+  </g>
+
+  <!-- Status Pill Badge (Top Right) -->
+  <g class="floating-badge" transform="translate(850, 36)">
+    <rect width="300" height="32" rx="16" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle class="pulse-dot" cx="20" cy="16" r="4.5" fill="#3fb950" />
+    <text x="34" y="20" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, sans-serif" font-size="12" font-weight="500">FOUNDER @ ARTIFICIAL STUDIO</text>
+  </g>
+
+  <!-- Main Hero Content -->
+  <g transform="translate(48, 115)">
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="0" fill="#79c0ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', Consolas, monospace" font-size="14" font-weight="600" letter-spacing="2.5">
+      &gt; AI ENGINEER • EMBEDDED SYSTEMS ARCHITECT • HACKATHON WINNER
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="52" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', 'Inter', sans-serif" font-size="46" font-weight="800" letter-spacing="-1">
+      PRINCE TIGGA
+    </text>
+
+    <!-- Descriptor Line -->
+    <text x="0" y="94" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', 'Inter', sans-serif" font-size="17" font-weight="400" letter-spacing="0.2">
+      Fine-tuning LLMs (Gemma), architecting autonomous AI agents, and bridging hardware with intelligent software.
+    </text>
+  </g>
+
+  <!-- Bottom Badges / Tech Highlights Bar -->
+  <g transform="translate(48, 255)">
+    <!-- LLM & RAG Focus -->
+    <rect x="0" y="0" width="180" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="18" fill="#d2a8ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', monospace" font-size="11" font-weight="600">🧠 LLM FINE-TUNING &amp; RAG</text>
+
+    <!-- Embedded / IoT Focus -->
+    <rect x="192" y="0" width="185" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="18" fill="#7ee787" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', monospace" font-size="11" font-weight="600" transform="translate(192, 0)">⚡ EMBEDDED &amp; IOT SYSTEMS</text>
+
+    <!-- Hackathon Winner Pill -->
+    <rect x="389" y="0" width="195" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="18" fill="#79c0ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', monospace" font-size="11" font-weight="600" transform="translate(389, 0)">🏆 NEURAL X WINNER (TU)</text>
+  </g>
+
+  <!-- Geometric Accent Line Right -->
+  <path d="M 1040 160 L 1120 160 L 1150 190" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" fill="none" />
+  <circle cx="1150" cy="190" r="3" fill="#58a6ff" />
+</svg>
